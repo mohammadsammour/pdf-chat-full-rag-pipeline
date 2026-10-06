@@ -1,4 +1,4 @@
-# Research Paper Chat
+# PDF Document Chat
 
 A local Retrieval-Augmented Generation (RAG) application for asking questions about PDFs. It combines a Streamlit chat interface, a FastAPI backend, persistent Chroma storage, Hugging Face embeddings, cross-encoder reranking, and a Qwen model served by Ollama.
 
