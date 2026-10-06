@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Local documents and experiment outputs
+*.pdf
+.ipynb_checkpoints/
+vectordb/chroma_data/
+chunking_results.json
+retrieval_evaluation.json
+character_reranking_evaluation.json
+
+# Local secrets
+.env
+.env.*

@@ -1,0 +1,13 @@
+{
+  "strategy": "character",
+  "parameters": {
+    "chunk_size": 1000,
+    "overlap": 200
+  },
+  "embedding_model": "sentence-transformers/all-mpnet-base-v2",
+  "collection": "test",
+  "run_id": "run_10",
+  "reranker_model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+  "candidate_count": 50,
+  "top_k": 5
+}
