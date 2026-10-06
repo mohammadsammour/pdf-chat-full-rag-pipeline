@@ -3,6 +3,8 @@
 A local Retrieval-Augmented Generation (RAG) application for asking questions about PDFs. It combines a Streamlit chat interface, a FastAPI backend, persistent Chroma storage, Hugging Face embeddings, cross-encoder reranking, and a Qwen model served by Ollama.
 
 I built this project to learn how to develop and evaluate a RAG system, from PDF processing to a working chat application. I compared four chunking strategies across 14 configurations, selected a character chunking configuration based on retrieval metrics, and tested cross-encoder reranking before integrating it into the application.
+## Demo
+![Chat Demo](demo/Chat%20Demo.gif)
 
 On a small ten-question development benchmark, reranking improved Hit@5 from **0.70 to 1.00**, MRR@5 from **0.570 to 0.883**, and judged context support from **0.80 to 0.90**. Mean retrieval/reranking time increased from **0.012 to 1.169 seconds per query**. The experiment details below explain the scoring and its limits.
 
